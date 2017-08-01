@@ -1,0 +1,230 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+
+\begin{document}
+
+\header{Jordi}{ Coscolla}{Mobile developer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\includegraphics[width=3.6cm]{photo}
+\section{contact}
+Capitan Arenas 64, 6-2
+Barcelona, 08034 
+Spain
+~
++34 654 44 88 59
+~
+\section{github/ blog/ mail}
+\href{mailto:jordi@coscolla.net}{jordi@coscolla.net}
+\href{http://github.com/kozko2001}{github.com/kozko2001}
+\href{http://www.coscolla.net}{http://coscolla.net}
+\href{http://stackoverflow.com/users/1021445/jordi-coscolla}{stackoverflow profile}
+\section{languages}
+Catalan, Spanish, English
+\section{programming}
+{\color{red} $\varheartsuit$} Objective-C, Android, Mobile
+Python, HTML5, nodejs
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Experience}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2011--Now}
+{UserZoom - Mobile leader}
+{}
+{
+Currently I'm working at UserZoom, being responsable for the two mobile products of the company, both developed for iOS and Android.
+
+\vspace{\parsep}
+
+
+\begin{itemize}
+\item \emph{True intent library}: A library to obtain the feeling and feedback of the user after using some part of the app that is particulary important for the client.
+
+\vspace{\parsep}
+\item \emph{Task Based Mobile}: Basically it's an app that simulate a browser and where clients tests new prototypes of their mobile webpages. Some extra features are the click/url stream and the recording.
+\vspace{\parsep}
+\end{itemize}
+\vspace{\parsep}
+Working with some cool clients like: \emph{Google, Paypal, Amazon etc...}\\
+\vspace{\parsep}Technologies mainly used: \textbf{Objective-C, Android, Git, Html5}
+} 
+\\
+%------------------------------------------------
+\entry
+{2010-2011}
+{Force Manager - Mobile developer}
+{}
+{
+ForceManager is a product oriented company that is developing apps to help to manage the sales force allowing to have catalogs on phone/tablets or check which customers have meet. I was responsable for the android part and also for part of the .NET backend.
+\\\vspace{\parsep}Technologies mainly used: \textbf{Android, git, .NET}
+}
+\\
+\entry
+{2009-2010}
+{CRIC (Centre de Recerca de Catalunya - Computer vision}
+{}
+{
+As part of signspeack team, a fp7 european project working to translate videos with people using the sign language to natural language.
+\\\vspace{\parsep}Technologies mainly used: \textbf{Python, openCV, C++}
+}
+\\
+%------------------------------------------------
+\entry
+{2005-2009}
+{Mapgenia}
+{}
+{\emph{Datamining} While studing I had a part time job doing datamining and dashboard for big pharmaceutical companies like Merck Sharp and Dohme or Bristol Mayers.
+\\\vspace{\parsep}Technologies mainly used: \textbf{.Net, SQL Server, MS Reporting Services}
+}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2004--2009}
+{University {\normalfont Computer Science}}
+{FIB (Facultat d'Informàtica de Barcelona}
+{End of carrer project: a System that is capable to detect when comercials begin on mutliple television channels and advise the user using a mobile app and push notifications.
+
+
+Technologies: C++, OpenCV, Android, Springs}
+%------------------------------------------------
+\entry
+{2002--2003}
+{Bachelor {\normalfont speciality in Technology}}
+{IES - Joan Fuster}
+{}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\newpage
+
+\section{Aptitudes}
+
+%\begin{entrylist}
+%------------------------------------------------
+
+%Comion&\parbox[t]{11.8cm}{ \textbf{"HHH"}\hfill{"HOLA"}} \\
+\begin{tabular}{p{3cm}p{10.8cm}}
+\textbf{Communication} & Domain of the language to develop my ideas and express both to the technical team and to the final customer.
+\vspace{\parsep}
+\\
+\textbf{Fast learning} & Deep knowledge of much of the new technologies and also ease for study of technologies that do not know.
+\vspace{\parsep}
+\\
+\textbf{New challenges} & My behavior is based on mark me new goals to better and advance professionally.
+\vspace{\parsep}
+\\
+\textbf{Team work} & Always beeing a peaceful person without conflicts with my the team, and wanting to share.
+\vspace{\parsep}
+\\
+\end{tabular}
+
+
+%\entry
+%{Communication}{}{}
+%{}
+%\entry
+%{Fast learning}{}{}
+%\entry
+%{New challanges}{}{}
+%{}
+%%------------------------------------------------
+%\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Technical Skills}
+%
+%\begin{multicols}{2}
+%HOLA ?
+%\vfill
+%\columnbreak
+%hola...
+%\end{multicols}
+%\begin{entrylist}
+%%------------------------------------------------
+%\entry
+%{2011}
+%{Oral Presentation}
+%{California Business Conference}
+%{Presented the research I conducted for my Masters of Commerce degree.}
+%%------------------------------------------------
+%\entry
+%{2010}
+%{Poster}
+%{Annual Business Conference, Oregon}
+%{As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+%%------------------------------------------------
+%\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+
+\begin{tabular}{p{3cm}p{10.8cm}}
+\textbf{Professional} &  Mobile, data mining, html5, python, agile, vim, git
+\vspace{\parsep}
+\\
+\textbf{Personal} & Cooking, reading, running, beer
+\vspace{\parsep}
+\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+
+\end{document}

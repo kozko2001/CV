@@ -1,0 +1,4 @@
+
+# Jordi Coscolla CV
+
+
