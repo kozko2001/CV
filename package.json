@@ -1,0 +1,25 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "### Launch latex to build the PDF",
+  "main": "index.js",
+  "scripts": {
+    "preview": "resume serve --port 8080 --theme elegant-maksymgendin",
+    "export-pdf": "resume export CV.pdf --format pdf --theme elegant-maksymgendin",
+    "export-html": "resume export CV.html --format html --theme elegant-maksymgendin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kozko2001/CV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kozko2001/CV/issues"
+  },
+  "homepage": "https://github.com/kozko2001/CV#readme",
+  "dependencies": {
+    "jsonresume-theme-elegant-maksymgendin": "^1.0.6",
+    "resume-cli": "^3.0.7"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jordi Coscolla",
+    "label": "FullStack Lead developer",
+    "image": "https://avatars.githubusercontent.com/u/562260?v=4",
+    "email": "kozko2001@gmail.com",
+    "url": "https://coscolla.net",
+    "summary": "I am a curious engineer, always looking for ",
+    "location": {
+      "postalCode": "08034",
+      "city": "Barcelona",
+      "countryCode": "ES",
+      "region": "Spain"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "kozko2001",
+        "url": "https://twitter.com/kozko2001"
+      },
+      {
+        "network": "Github",
+        "username": "kozko2001",
+        "url": "http://github.com/kozko2001"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Jordi Coscolla",
+        "url": "https://www.linkedin.com/in/jordi-coscolla-60334823/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "ThoughtWorks - HolaLuz",
+      "location": "Barcelona",
+      "description": "HolaLuz Experience for Cuota products",
+      "position": "Tech Lead / Engineering Manager",
+      "startDate": "2021-01-01",
+      "endDate": "2022-04-01",
+      "summary": "Team responsable for the customer experience in quota products",
+      "highlights": [
+        "Maintain consumption prediction service",
+        "Help with legal changes in last year in electricity sector",
+        "Build consumption dashboard"
+      ]
+    },
+    {
+      "name": "ThoughtWorks - BestSecret",
+      "location": "Barcelona",
+      "description": "Couch team to become high performing teams",
+      "position": "Tech Lead",
+      "startDate": "2020-09-01",
+      "endDate": "2021-01-01",
+      "summary": "Couch BestSecret engineering teams to get to the next level",
+      "highlights": [
+        "Help the teams to understand the value of practices as TDD or CD",
+        "Couch the leads of the team on how to influence the product side of the company, and improve the communication, expectations etc...",
+        "Bring psychological safety to the team, to raise the deep issues they were dragging",
+        "Help with the long term architectural vision"
+      ]
+    },
+    {
+      "name": "ThoughtWorks - Marketplace in Germany",
+      "location": "Barcelona",
+      "description": "Ingestion Team",
+      "position": "Tech Lead",
+      "startDate": "2018-04-01",
+      "endDate": "2020-08-01",
+      "summary": "Technical responsable for the Ingestion of items to sell",
+      "highlights": [
+        "None premium sellers, had to use a SPA to upload their sell items",
+        "Migrated the system that was driving most of the revenues from on-promise to the cloud",
+        "Build solutions to have 360 images in the  marketplace"
+      ]
+    },
+    {
+      "name": "ThoughtWorks - Decode",
+      "location": "Barcelona",
+      "description": "Build a mobile app to",
+      "position": "Senior Developer",
+      "url": "https://decodeproject.eu/",
+      "startDate": "2017-10-01",
+      "endDate": "2018-04-01",
+      "summary": "EU project bringin back ownership of the data to people",
+      "highlights": [
+        "We build a mobile app (ReactNative with Expo) to help Barcelona Decidim, make voting sessions.",
+        "Technology behind was a blockchain provided by UCL, and homomorphic encryption smart contracts to ensure nobody could vote twice"
+      ]
+    },
+    {
+      "name": "ThoughtWorks - Idneo",
+      "location": "Barcelona",
+      "description": "Build pipeline for car hardware firmware",
+      "position": "Senior Developer",
+      "url": "https://www.idneo.com/",
+      "startDate": "2017-10-01",
+      "endDate": "2018-04-01",
+      "summary": "We were on charge for building a quality pipeline for the firmware that was deployed to cars.",
+      "highlights": [
+        "Building CI/CD pipelines for firmware",
+        "Mentoring why automatic pipelines are important and show how to build them"
+      ]
+    },
+    {
+      "name": "Userzoom",
+      "location": "Barcelona",
+      "description": "Build Research UX App",
+      "position": "Mobile App Leader",
+      "url": "https://www.idneo.com/",
+      "startDate": "2011-02-01",
+      "endDate": "2017-10-01",
+      "summary": "Build an UX app that enable our customers to understand how the users use their apps/websites in a mobile phone.",
+      "highlights": [
+        "Build app that tracked touches of a webview, camera and recorded the audio (for iOS/Android)",
+        "Some of the clients were Google, Paypal, Amazon ..."
+      ]
+    },
+    {
+      "name": "ForceManager",
+      "location": "Barcelona",
+      "description": "CRM Mobile app for salesman",
+      "position": "Mobile App Developer",
+      "url": "https://www.forcemanager.com/",
+      "startDate": "2009-01-01",
+      "endDate":  "2011-02-01",
+      "summary": "Build a CRM in a mobile app for Android and part of the backend"
+    },
+    {
+      "name": "MapGenia",
+      "location": "Barcelona",
+      "description": "Build Sales dashboard for Pharma industry",
+      "position": "Developer",
+      "startDate": "2005-04-01",
+      "endDate":  "2011-02-01",
+      "summary": "Build dashboards for the pharma industry with Flash and Flex"
+    }
+  ],
+  "education": [
+    {
+      "institution": "UPC - FIB",
+      "url": "https://www.fib.upc.edu",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2004-09-01",
+      "endDate": "2009-06-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Master",
+      "keywords": [
+        "React",
+        "Next",
+        "Nuxt",
+        "Micro frontends"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Master",
+      "keywords": [
+        "API",
+        "Java",
+        "Kotlin",
+        "Python for data scrapping"
+      ]
+    },
+    {
+      "name": "Infrastructure",
+      "level": "Master",
+      "keywords": [
+        "AWS",
+        "Terraform",
+        "Jenkins",
+        "Github Actions",
+        "Observability"
+      ]
+    },
+    {
+      "name": "Dev Practices",
+      "level": "Master",
+      "keywords": [
+        "CI / CD",
+        "Infrastructure as Code",
+        "TDD",
+        "Push security to the left"
+      ]
+    },
+    {
+      "name": "Soft Skils",
+      "level": "Master",
+      "keywords": [
+        "Communication",
+        "Empathy",
+        "Active Listening",
+        "Build high performing teams",
+        "Challenge"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
