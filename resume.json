@@ -155,7 +155,8 @@
         "React",
         "Next",
         "Nuxt",
-        "Micro frontends"
+        "Micro frontends",
+        "TypeScript"
       ]
     },
     {
@@ -165,7 +166,7 @@
         "API",
         "Java",
         "Kotlin",
-        "Python for data scrapping"
+        "Python for data"
       ]
     },
     {
@@ -186,7 +187,7 @@
         "CI / CD",
         "Infrastructure as Code",
         "TDD",
-        "Push security to the left"
+        "Pushing left security"
       ]
     },
     {

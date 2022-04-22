@@ -1,0 +1,33 @@
+name: Publish to S3
+
+on:
+  push:
+    branches: main
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: eu-west-1
+
+    - name: Setup node 16
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - name: Build
+      run: |
+        npm install
+        npm run export-pdf
+        npm run export-html
+    - name: Copy files to the production website with the AWS CLI
+      run: |
+        aws s3 sync CV.html s3://cv.allocsoc.net
+        aws s3 sync CV.pdf s3://cv.allocsoc.net
