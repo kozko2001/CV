@@ -29,5 +29,5 @@ jobs:
         npm run export-html
     - name: Copy files to the production website with the AWS CLI
       run: |
-        aws s3 sync CV.html s3://cv.allocsoc.net
-        aws s3 sync CV.pdf s3://cv.allocsoc.net
+        aws s3 cp CV.html s3://cv.allocsoc.net/CV.html
+        aws s3 cp CV.pdf s3://cv.allocsoc.net/CV.pdf
