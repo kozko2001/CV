@@ -6,7 +6,7 @@
     "image": "https://avatars.githubusercontent.com/u/562260?v=4",
     "email": "kozko2001@gmail.com",
     "url": "https://coscolla.net",
-    "summary": "Played the role of Tech Lead during last 3 years, bringing technical excelence while balancing business objectives. Creating environments that allow engineers thrive at work.\nI consider myself a fullstack engineer, touched all kind of technologies, from obscure blockchain that facebook bought, to react-native apps, to normal SPA pages and of course multiple APIS. (React, Vue, TS, Spring boot, terrafor, python etc...)",
+    "summary": "Played the role of Tech Lead during last 8 years, bringing technical excelence while balancing business objectives. Creating environments that allow engineers thrive at work.\nI consider myself a fullstack engineer, touched all kind of technologies, from obscure blockchain that facebook bought, to react-native apps, to normal SPA pages and of course multiple APIS. (React, Vue, TS, Spring boot, terrafor, python etc...)",
     "location": {
       "postalCode": "08034",
       "city": "Barcelona",
@@ -33,12 +33,24 @@
   },
   "work": [
     {
+      "name": "ThoughtWorks - Civitatis",
+      "location": "Barcelona",
+      "description": "Modernization of the engineering division",
+      "position": "Architect",
+      "startDate": "2022-09-01",
+      "endDate": "2024-01-01",
+      "summary": "Responsable for defining new vision of tech for engineering starting with the B2B vertical",
+      "highlights": [
+        "Splitting monolith to help create autonomous teams"
+      ]
+    },
+    {
       "name": "ThoughtWorks - HolaLuz",
       "location": "Barcelona",
-      "description": "HolaLuz Experience for Cuota products",
+      "description": "Holaluz innovation product team",
       "position": "Tech Lead / Engineering Manager",
       "startDate": "2021-01-01",
-      "endDate": "2022-04-01",
+      "endDate": "2022-09-01",
       "summary": "Team responsable for the customer experience in quota products",
       "highlights": [
         "Maintain consumption prediction service",
@@ -49,7 +61,7 @@
     {
       "name": "ThoughtWorks - BestSecret",
       "location": "Barcelona",
-      "description": "Couch team to become high performing teams",
+      "description": "Couch team to become high performing team",
       "position": "Tech Lead",
       "startDate": "2020-09-01",
       "endDate": "2021-01-01",
@@ -68,7 +80,7 @@
       "position": "Tech Lead",
       "startDate": "2018-04-01",
       "endDate": "2020-08-01",
-      "summary": "Technical responsable for the Ingestion of items to sell",
+      "summary": "Technical responsable for the Ingestion vertical",
       "highlights": [
         "None premium sellers, had to use a SPA to upload their sell items",
         "Migrated the system that was driving most of the revenues from on-promise to the cloud",
@@ -124,7 +136,7 @@
       "position": "Mobile App Developer",
       "url": "https://www.forcemanager.com/",
       "startDate": "2009-01-01",
-      "endDate":  "2011-02-01",
+      "endDate": "2011-02-01",
       "summary": "Build a CRM in a mobile app for Android and part of the backend"
     },
     {
@@ -133,7 +145,7 @@
       "description": "Build Sales dashboard for Pharma industry",
       "position": "Developer",
       "startDate": "2005-04-01",
-      "endDate":  "2011-02-01",
+      "endDate": "2011-02-01",
       "summary": "Build dashboards for the pharma industry with Flash and Flex"
     }
   ],
@@ -166,6 +178,7 @@
         "API",
         "Java",
         "Kotlin",
+        "Scala",
         "Python for data"
       ]
     },
@@ -175,6 +188,7 @@
       "keywords": [
         "AWS",
         "Terraform",
+        "Kubernetes",
         "Jenkins",
         "Github Actions",
         "Observability"
