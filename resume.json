@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Jordi Coscolla",
-    "label": "FullStack Lead developer",
+    "label": "Tech Lead / Engineering Manager",
     "image": "https://avatars.githubusercontent.com/u/562260?v=4",
     "email": "kozko2001@gmail.com",
     "url": "https://coscolla.net",
-    "summary": "Played the role of Tech Lead during last 8 years, bringing technical excelence while balancing business objectives. Creating environments that allow engineers thrive at work.\nI consider myself a fullstack engineer, touched all kind of technologies, from obscure blockchain that facebook bought, to react-native apps, to normal SPA pages and of course multiple APIS. (React, Vue, TS, Spring boot, terrafor, python etc...)",
+    "summary": "Tech Lead with 8+ years of experience driving technical excellence while balancing business objectives and fostering environments where engineering teams thrive. Proven track record of leading cross-functional teams, modernizing legacy systems, and building scalable platforms that enable autonomous team growth.\n\nAs a versatile full-stack engineer, I've successfully delivered solutions across the entire technology spectrum - from blockchain systems and React Native mobile applications to modern SPAs and robust APIs. My expertise spans frontend frameworks (React, Vue), backend technologies (Spring Boot, Python, Kotlin), and cloud infrastructure (AWS, Terraform), always with a focus on sustainable architecture and team empowerment.",
     "location": {
       "postalCode": "08034",
       "city": "Barcelona",
@@ -33,15 +33,36 @@
   },
   "work": [
     {
+      "name": "Sparta Commodities",
+      "location": "Barcelona",
+      "description": "Core platform team building platform oil commodities",
+      "position": "Tech Lead - Core Team",
+      "startDate": "2024-01-01",
+      "summary": "Led the Core team responsible for building and maintaining the data platform that enables other teams to build on top of our infrastructure. Managed data ingestion pipelines while navigating startup challenges including tight deadlines, technical debt prioritization, and critical technical decisions.",
+      "highlights": [
+        "Built and maintained AWS-based data ingestion pipelines supporting multiple teams",
+        "Led and mentored developers, focusing on their professional growth and technical development",
+        "Made critical technical decisions balancing important features vs technical improvements",
+        "Successfully managed startup pressures including aggressive deadlines and resource constraints",
+        "Designed platform architecture enabling other teams to build efficiently on top of core infrastructure",
+        "Technologies: AWS, Python, Kotlin, Ktor, SpringBoot, PostgreSQL, Redshift"
+      ]
+    },
+    {
       "name": "ThoughtWorks - Civitatis",
       "location": "Barcelona",
       "description": "Modernization of the engineering division",
       "position": "Architect",
       "startDate": "2022-09-01",
       "endDate": "2024-01-01",
-      "summary": "Responsable for defining new vision of tech for engineering starting with the B2B vertical",
+      "summary": "Led the technical modernization initiative for Civitatis' engineering division, focusing on transforming the B2B vertical from legacy monolithic architecture to a resilient, scalable system. Championed cultural change by empowering engineers to voice their opinions and drive technical improvements, fostering a more collaborative and innovative engineering culture.",
       "highlights": [
-        "Splitting monolith to help create autonomous teams"
+        "Architected the decomposition strategy for legacy PHP/Symfony monolith into microservices using Java SpringBoot",
+        "Designed resilient architecture patterns to improve system reliability and enable autonomous team development",
+        "Implemented database modernization strategies transitioning from monolithic MySQL to distributed data architecture",
+        "Cultivated engineering culture transformation, encouraging team members to take ownership and advocate for technical improvements",
+        "Established technical vision and roadmap for B2B vertical modernization, balancing immediate business needs with long-term scalability",
+        "Technologies: PHP, Symfony, Java SpringBoot, MySQL, microservices architecture"
       ]
     },
     {
@@ -51,93 +72,123 @@
       "position": "Tech Lead / Engineering Manager",
       "startDate": "2021-01-01",
       "endDate": "2022-09-01",
-      "summary": "Team responsable for the customer experience in quota products",
+      "summary": "Led customer experience initiatives across two key areas: operations team focused on quota products ensuring accurate billing through data analysis and system monitoring, and modernization team transforming electricity and gas data processing pipelines to improve system reliability and scalability.",
       "highlights": [
-        "Maintain consumption prediction service",
-        "Help with legal changes in last year in electricity sector",
-        "Build consumption dashboard"
+        "Maintained and optimized consumption prediction service ensuring accurate customer billing for quota products",
+        "Conducted extensive data analysis to validate system accuracy and prevent billing discrepancies",
+        "Successfully implemented legal compliance changes required by electricity sector regulatory updates",
+        "Built comprehensive consumption dashboard providing customers with clear visibility into their usage patterns",
+        "Designed and implemented new data pipelines for electricity and gas data processing as part of system modernization",
+        "Improved data pipeline reliability and performance, reducing processing time and system downtime"
       ]
     },
     {
       "name": "ThoughtWorks - BestSecret",
       "location": "Barcelona",
-      "description": "Couch team to become high performing team",
+      "description": "Engineering transformation and team development consultancy",
       "position": "Tech Lead",
       "startDate": "2020-09-01",
       "endDate": "2021-01-01",
-      "summary": "Couch BestSecret engineering teams to get to the next level",
+      "summary": "Coached BestSecret's engineering teams to achieve high-performance standards through technical excellence, leadership development, and cultural transformation. Focused on establishing engineering best practices, improving cross-functional collaboration, and creating sustainable development processes.",
       "highlights": [
-        "Help the teams to understand the value of practices as TDD or CD",
-        "Couch the leads of the team on how to influence the product side of the company, and improve the communication, expectations etc...",
-        "Bring psychological safety to the team, to raise the deep issues they were dragging",
-        "Help with the long term architectural vision"
+        "Introduced and mentored teams on engineering best practices including Test-Driven Development (TDD) and Continuous Deployment (CD)",
+        "Coached engineering leads on stakeholder management and product collaboration, improving communication and expectation alignment",
+        "Established psychological safety framework enabling teams to surface and address long-standing technical and organizational challenges",
+        "Contributed to long-term architectural vision and strategic technical roadmap planning",
+        "Facilitated cross-functional workshops to improve product-engineering alignment and delivery predictability",
+        "Implemented code review processes and quality standards that elevated overall team performance"
       ]
     },
     {
       "name": "ThoughtWorks - Marketplace in Germany",
       "location": "Barcelona",
-      "description": "Ingestion Team",
+      "description": "Data ingestion platform for major German e-commerce marketplace",
       "position": "Tech Lead",
       "startDate": "2018-04-01",
       "endDate": "2020-08-01",
-      "summary": "Technical responsable for the Ingestion vertical",
+      "summary": "Led the technical architecture and development of the product ingestion platform, responsible for onboarding sellers and managing the marketplace's core revenue-generating systems. Oversaw critical cloud migration and implemented innovative product presentation features.",
       "highlights": [
-        "None premium sellers, had to use a SPA to upload their sell items",
-        "Migrated the system that was driving most of the revenues from on-promise to the cloud",
-        "Build solutions to have 360 images in the  marketplace"
+        "Architected and developed SPA platform enabling non-premium sellers to efficiently upload and manage their product catalogs",
+        "Successfully migrated mission-critical revenue-generating systems from on-premise infrastructure to cloud, ensuring zero downtime",
+        "Implemented 360-degree product imaging solution, enhancing customer experience and increasing conversion rates",
+        "Optimized data ingestion pipelines to handle high-volume seller uploads while maintaining data quality and consistency",
+        "Led cross-functional team coordination between product, design, and engineering to deliver seller-facing features",
+        "Established monitoring and alerting systems for ingestion platform, significantly reducing system downtime and data loss"
       ]
     },
     {
       "name": "ThoughtWorks - Decode",
       "location": "Barcelona",
-      "description": "Build a mobile app to",
+      "description": "EU-funded digital sovereignty and democratic participation project",
       "position": "Senior Developer",
       "url": "https://decodeproject.eu/",
       "startDate": "2017-10-01",
       "endDate": "2018-04-01",
-      "summary": "EU project bringin back ownership of the data to people",
+      "summary": "Contributed to pioneering EU project focused on returning data ownership to citizens through decentralized technologies. Developed secure voting platform for Barcelona's Decidim participatory democracy initiative using cutting-edge blockchain and cryptographic technologies.",
       "highlights": [
-        "We build a mobile app (ReactNative with Expo) to help Barcelona Decidim, make voting sessions.",
-        "Technology behind was a blockchain provided by UCL, and homomorphic encryption smart contracts to ensure nobody could vote twice"
+        "Developed React Native mobile application with Expo for Barcelona's Decidim platform, enabling secure digital voting sessions",
+        "Integrated advanced blockchain technology provided by University College London (UCL) for decentralized voting infrastructure",
+        "Implemented homomorphic encryption smart contracts ensuring vote privacy while preventing double voting and maintaining electoral integrity",
+        "Collaborated with academic researchers and policy makers to bridge technical implementation with democratic governance requirements",
+        "Contributed to open-source digital democracy tools that advanced European digital sovereignty initiatives",
+        "Technologies: React Native, Expo, Blockchain, Smart Contracts, Homomorphic Encryption"
       ]
     },
     {
       "name": "ThoughtWorks - Idneo",
       "location": "Barcelona",
-      "description": "Build pipeline for car hardware firmware",
+      "description": "Automotive firmware quality assurance and deployment systems",
       "position": "Senior Developer",
       "url": "https://www.idneo.com/",
       "startDate": "2017-10-01",
       "endDate": "2018-04-01",
-      "summary": "We were on charge for building a quality pipeline for the firmware that was deployed to cars.",
+      "summary": "Led the development of critical quality assurance pipelines for automotive firmware deployed to production vehicles. Focused on establishing robust CI/CD processes for safety-critical embedded systems while mentoring the client team on DevOps best practices.",
       "highlights": [
-        "Building CI/CD pipelines for firmware",
-        "Mentoring why automatic pipelines are important and show how to build them"
+        "Architected and implemented CI/CD pipelines specifically designed for automotive firmware with safety-critical requirements",
+        "Established automated testing frameworks ensuring firmware quality and reliability before vehicle deployment",
+        "Mentored client engineering teams on DevOps principles and the strategic importance of automated deployment pipelines",
+        "Implemented quality gates and compliance checks meeting automotive industry standards and regulations",
+        "Designed rollback and recovery mechanisms for firmware deployments to minimize production vehicle risks",
+        "Created comprehensive documentation and training materials for sustainable pipeline maintenance"
       ]
     },
     {
       "name": "Userzoom",
       "location": "Barcelona",
-      "description": "Build Research UX App",
-      "position": "Mobile App Leader",
-      "url": "https://www.idneo.com/",
+      "description": "UX research platform connecting businesses with panelists for rapid user feedback",
+      "position": "Director of Mobile",
+      "url": "https://www.userzoom.com/",
       "startDate": "2011-02-01",
       "endDate": "2017-10-01",
-      "summary": "Build an UX app that enable our customers to understand how the users use their apps/websites in a mobile phone.",
+      "summary": "Led mobile product development for comprehensive UX research platform that enabled businesses to conduct real-time user testing with a global panelist network. Architected and developed mobile applications for iOS and Android, backend systems, and innovative tracking solutions serving enterprise clients including Fortune 500 companies.",
       "highlights": [
-        "Build app that tracked touches of a webview, camera and recorded the audio (for iOS/Android)",
-        "Some of the clients were Google, Paypal, Amazon ..."
+        "Architected and developed mobile applications for iOS and Android that tracked user interactions, touch events, camera, and audio recording for comprehensive UX analysis",
+        "Built True Intent system - an intelligent library that dynamically prompted contextual questions to users based on predefined behavioral triggers and conditions",
+        "Developed backend systems using .NET to support real-time data collection, panelist management, and client reporting dashboards",
+        "Led mobile product strategy and development team, overseeing the complete mobile experience from panelist recruitment to client delivery",
+        "Successfully scaled platform to serve major enterprise clients including Google, PayPal, Amazon, and other Fortune 500 companies",
+        "Implemented advanced analytics and reporting features enabling businesses to gain actionable insights from user behavior data",
+        "Established mobile development best practices and quality standards that supported rapid platform growth and client satisfaction",
+        "Technologies: iOS, Android, .NET, mobile analytics, real-time data processing, WebView integration"
       ]
     },
     {
       "name": "ForceManager",
       "location": "Barcelona",
-      "description": "CRM Mobile app for salesman",
+      "description": "Mobile-first CRM solution for sales professionals",
       "position": "Mobile App Developer",
       "url": "https://www.forcemanager.com/",
       "startDate": "2009-01-01",
       "endDate": "2011-02-01",
-      "summary": "Build a CRM in a mobile app for Android and part of the backend"
+      "summary": "Developed mobile CRM application for Android platform, enabling sales professionals to manage customer relationships, track opportunities, and access critical sales data on-the-go. Contributed to backend development supporting mobile functionality and data synchronization.",
+      "highlights": [
+        "Built native Android CRM application with offline capabilities for sales teams working in various connectivity conditions",
+        "Implemented customer management features including contact tracking, opportunity pipeline, and sales activity logging",
+        "Developed backend services and APIs to support mobile client functionality and real-time data synchronization",
+        "Created intuitive mobile interface optimized for sales workflows and field operations",
+        "Established mobile development practices during early Android ecosystem adoption period",
+        "Technologies: Android, Java, mobile backend development, CRM systems"
+      ]
     },
     {
       "name": "MapGenia",
@@ -161,58 +212,119 @@
   ],
   "skills": [
     {
-      "name": "Frontend",
+      "name": "Technical Leadership",
+      "level": "Master",
+      "keywords": [
+        "System Architecture",
+        "Technical Strategy",
+        "Legacy System Modernization",
+        "Microservices Architecture",
+        "Platform Engineering",
+        "Technical Debt Management",
+        "Scalability Planning",
+        "Technology Roadmapping"
+      ]
+    },
+    {
+      "name": "Engineering Management",
+      "level": "Master",
+      "keywords": [
+        "Team Building & Scaling",
+        "Developer Mentoring & Growth",
+        "Performance Management",
+        "Cross-functional Collaboration",
+        "Agile/Scrum Leadership",
+        "Engineering Culture",
+        "Psychological Safety",
+        "Code Review Leadership"
+      ]
+    },
+    {
+      "name": "Product & Business Alignment",
+      "level": "Master",
+      "keywords": [
+        "Product-Engineering Balance",
+        "Stakeholder Management",
+        "Technical Requirements Analysis",
+        "Feature Prioritization",
+        "Risk Assessment",
+        "Technical Communication",
+        "Business Impact Analysis",
+        "Go-to-Market Technical Strategy"
+      ]
+    },
+    {
+      "name": "Frontend Technologies",
       "level": "Master",
       "keywords": [
         "React",
-        "Next",
-        "Nuxt",
+        "Vue.js",
+        "Next.js",
+        "Nuxt.js",
+        "TypeScript",
         "Micro frontends",
-        "TypeScript"
+        "React Native",
+        "Progressive Web Apps",
+        "State Management (Redux, Vuex)"
       ]
     },
     {
-      "name": "Backend",
+      "name": "Backend & Data",
       "level": "Master",
       "keywords": [
-        "API",
-        "Java",
-        "Kotlin",
+        "REST & GraphQL APIs",
+        "Java & Spring Boot",
+        "Kotlin & Ktor",
         "Scala",
-        "Python for data"
+        "Python",
+        "Data Pipeline Architecture",
+        "Event-driven Architecture",
+        "Database Design (PostgreSQL, Redshift)",
+        "Message Queues"
       ]
     },
     {
-      "name": "Infrastructure",
+      "name": "Cloud & Infrastructure",
       "level": "Master",
       "keywords": [
-        "AWS",
+        "AWS (EC2, S3, Lambda, RDS, Redshift)",
         "Terraform",
         "Kubernetes",
+        "Docker",
         "Jenkins",
-        "Github Actions",
-        "Observability"
-      ]
-    },
-    {
-      "name": "Dev Practices",
-      "level": "Master",
-      "keywords": [
-        "CI / CD",
+        "GitHub Actions",
+        "Monitoring & Observability",
         "Infrastructure as Code",
-        "TDD",
-        "Pushing left security"
+        "Cloud Migration"
       ]
     },
     {
-      "name": "Soft Skils",
+      "name": "Engineering Excellence",
       "level": "Master",
       "keywords": [
-        "Communication",
-        "Empathy",
-        "Active Listening",
-        "Build high performing teams",
-        "Challenge"
+        "Test-Driven Development",
+        "Continuous Integration/Deployment",
+        "DevSecOps",
+        "Code Quality Standards",
+        "Automated Testing Strategy",
+        "Security Best Practices",
+        "Performance Optimization",
+        "Documentation Standards"
+      ]
+    },
+    {
+      "name": "Leadership & Communication",
+      "level": "Expert",
+      "keywords": [
+        "Strategic Communication",
+        "Conflict Resolution",
+        "Decision Making",
+        "Change Management",
+        "Influence & Persuasion",
+        "Public Speaking",
+        "Technical Writing",
+        "Cross-cultural Leadership",
+        "Remote Team Management"
       ]
     }
   ],

@@ -5,9 +5,8 @@
 
 - To modify the resume, edit the `resume.json`
 
+- enter the shell `nix develop`
 - Preview while you editing => `npm run preview` 
-- Create a PDF => `npm run export-pdf`
-- Create a HTML => `npm run export-html`
 
 
 ### Launch latex to build the PDF (Old CV)
