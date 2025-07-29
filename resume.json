@@ -45,7 +45,7 @@
         "Made critical technical decisions balancing important features vs technical improvements",
         "Successfully managed startup pressures including aggressive deadlines and resource constraints",
         "Designed platform architecture enabling other teams to build efficiently on top of core infrastructure",
-        "Technologies: AWS, Python, Kotlin, Ktor, SpringBoot, PostgreSQL, Redshift"
+        "Technologies: AWS, Python, Kotlin, Ktor, SpringBoot, PostgreSQL, Redshift, gRPC, Protobuf"
       ]
     },
     {
