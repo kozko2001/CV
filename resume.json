@@ -45,7 +45,7 @@
         "Made critical technical decisions balancing important features vs technical improvements",
         "Successfully managed startup pressures including aggressive deadlines and resource constraints",
         "Designed platform architecture enabling other teams to build efficiently on top of core infrastructure",
-        "Technologies: AWS, Python, Kotlin, Ktor, SpringBoot, PostgreSQL, Redshift, gRPC, Protobuf"
+        "Technologies: AWS, Python, Kotlin, Ktor, SpringBoot, PostgreSQL, Redshift, gRPC, Protobuf, Redis, Kafka"
       ]
     },
     {
@@ -79,7 +79,8 @@
         "Successfully implemented legal compliance changes required by electricity sector regulatory updates",
         "Built comprehensive consumption dashboard providing customers with clear visibility into their usage patterns",
         "Designed and implemented new data pipelines for electricity and gas data processing as part of system modernization",
-        "Improved data pipeline reliability and performance, reducing processing time and system downtime"
+        "Improved data pipeline reliability and performance, reducing processing time and system downtime",
+        "Technologies: Java, Spring Boot, Redis, Kafka, MySQL, AWS"
       ]
     },
     {
@@ -113,7 +114,8 @@
         "Implemented 360-degree product imaging solution, enhancing customer experience and increasing conversion rates",
         "Optimized data ingestion pipelines to handle high-volume seller uploads while maintaining data quality and consistency",
         "Led cross-functional team coordination between product, design, and engineering to deliver seller-facing features",
-        "Established monitoring and alerting systems for ingestion platform, significantly reducing system downtime and data loss"
+        "Established monitoring and alerting systems for ingestion platform, significantly reducing system downtime and data loss",
+        "Technologies: Java, Spring Boot, AWS, Redis, Kafka, MySQL, REST APIs"
       ]
     },
     {
@@ -280,7 +282,9 @@
         "Data Pipeline Architecture",
         "Event-driven Architecture",
         "Database Design (PostgreSQL, Redshift)",
-        "Message Queues"
+        "Message Queues",
+        "Apache Kafka",
+        "Redis"
       ]
     },
     {
